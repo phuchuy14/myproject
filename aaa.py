@@ -1,7 +1,16 @@
-print("phhuchuy")
-print("Xin chao")
-print("Xin chao")
-def add(a,b):
-    return a+b
+def add_numbers(a, b):
+    return a + b
 
-print(add(1,2))
+def subtract_numbers(a, b):
+    return a - b
+
+def multiply_numbers(a, b):
+    return a * b
+
+def divide_numbers(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Division by zero error"
+    
+print("Welcome to the simple calculator!")
